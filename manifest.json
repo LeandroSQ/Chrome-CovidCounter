@@ -1,0 +1,27 @@
+{
+    "name": "Covid - Dados acumulados",
+    "version": "1.0",
+    "description": "Devolve as informações retiradas do site do ministério da saúde",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "web_accessible_resources": [
+        "injectable.js"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://covid.saude.gov.br/"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "manifest_version": 2
+}
