@@ -1,3 +1,7 @@
+# ATENÇÃO
+Uma nova atualização no portal da covid, removeu todos os registros. A extensão se encontra momentâneamente indisponível
+Estou buscando alternativas a essa CENSURA!
+
 # CovidCounter
 Devolve as informações retiradas do site do ministério da saúde
 
